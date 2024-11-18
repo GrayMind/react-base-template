@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "dev": "vite",
     "lint": "eslint --ext .js,.jsx . && stylelint --max-warnings 0 \"**/*.scss\"",
     "lint:fix": "prettier --write . && eslint --ext .js,.jsx --fix . && stylelint --max-warnings 0 --fix \"**/*.scss\"",
-    "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
